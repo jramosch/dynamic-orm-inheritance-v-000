@@ -13,4 +13,3 @@ song.save
 puts Song.find_by_name("Hello")
 
 # DB[:conn].execute("SELECT * FROM songs")
-puts song.values_for_insert
